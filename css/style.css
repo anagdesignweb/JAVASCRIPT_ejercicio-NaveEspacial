@@ -1,0 +1,23 @@
+*,*::before,*::after,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#cajaContenedor{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    border-bottom: 30px solid rgb(119, 134, 124);
+    position:relative;
+    overflow: hidden;
+}
+#cajaImg{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+}
+#cajaImg img{
+    width: 100%;
+    vertical-align: top;
+}
